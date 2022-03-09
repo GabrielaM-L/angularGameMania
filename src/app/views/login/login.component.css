@@ -1,0 +1,63 @@
+main {
+    height: 500px;
+}
+
+
+form {
+    background-color: #457B9D;
+    color: white;
+    width: 60%;
+    min-height: 200px;
+    width: 500px;
+    padding: 40px;
+    border: 10px solid white;
+    box-shadow: 0 0 0 10px #1F456E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+#botao-enviar {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;  
+}
+
+.campo-label {
+    padding: 10px;
+}
+
+label {
+    padding: 5px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#mensagem {
+    color: white;
+    background-color: rgb(141, 44, 44);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Formulário fale conosco */
+    
+        form {
+            margin-left: 15%;
+            justify-items: center;
+            width: 65%;
+
+        }
+    }

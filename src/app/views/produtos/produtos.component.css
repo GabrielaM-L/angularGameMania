@@ -1,0 +1,26 @@
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 263px;
+    margin-left: 640px;
+}
+
+p img {
+    height: 50px;
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 20px;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    p img {
+        height: 30px;
+        width: 80px;
+    }
+}

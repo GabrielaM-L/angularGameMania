@@ -1,0 +1,254 @@
+.container-grid-banner {
+    height: 300px;
+    background-image: url(/assets/img/imagem-banner.svg);
+    background-size: 620px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.container-grid-banner a {
+    font-size: 40px;
+    text-decoration: none;
+    color: coral;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container-grid-banner a:hover {
+    background-color: gray;
+}
+
+/* Mais vendidos */
+
+.mais-vendidos {
+    background-color: #c4c4c4;
+}
+
+.mais-vendidos h2 {
+    font-size: 30px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color:#1F456E;
+    height: 50px;
+    color: white;
+}
+
+.produtos-container {
+    background-color:  #C4C4C4;
+    height: 1000px;
+}
+
+.card-produto{
+    background-color: #457B9D;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 350px;
+}
+
+.carousel-indicators{
+    margin-bottom: -50px;
+}
+
+.produto-img{
+    margin-top: 30px;
+    width: 220px;
+    height: 150px;
+}
+
+.card-produto h5{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 12px;
+}
+
+.card-produto h6{
+    color: #FFB108;
+    text-align: center;
+}
+
+.card-produto p{
+    color: white;
+    text-align: center;
+    font-size: 9px;
+}
+
+.icones {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin: 20px;
+    width: 80px;
+    
+}
+
+.icone-compra{
+    width: 25px;
+    height: 20px;
+}
+
+.icone-favorito{
+    width: 25px;
+    height: 20px;
+}
+
+/* Categorias */
+
+.container-grid-categorias{
+    margin: 0 auto;
+    background-color: #c4c4c4;
+    margin-top: 100px;
+}
+
+.categorias {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.card-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categorias img{
+    height: 280px;
+    width: 280px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.3 ease-out;
+    padding: 10px;
+}
+
+.categorias img:hover {
+    transform: translateY(-10px);
+}
+
+.categorias a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Notícias */
+
+.container-grid-news {
+    margin: 0 auto;
+    background-color: #889CC1;
+    margin-top: 5%;
+    display: flex;
+}
+
+.container-text {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.container-grid-news h3 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.container-grid-news p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-grid-news button{
+    align-self: center;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #c4c4c4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-grid-news img {
+    width: 550px;
+    margin: 20px 30px 20px 50px;
+   
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+
+    /* Banner */
+    
+    .container-grid-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        height: 300px;
+    
+    }
+    .container-grid-banner a {
+        font-size: 30px;
+        text-align: center;
+        color: coral;
+        text-decoration: underline;
+
+    }
+
+    /* Mais vendidos */
+
+    .card-produto {
+        width: 250px;
+        align-self: center;
+    }
+
+    /* Categorias */
+
+    .categorias {
+        flex-direction: column;
+    }
+
+    .container-grid-categorias {
+        margin-top: 50px;
+    }
+
+    .card-categorias {
+        margin-top: 40px;
+    }
+
+    .card-categorias img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Notícias */
+
+    .container-grid-news img{
+        display: none;
+    }
+
+    .container-grid-news button{
+        align-self: center;
+    }
+}

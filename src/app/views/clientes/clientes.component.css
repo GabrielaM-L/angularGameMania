@@ -1,0 +1,123 @@
+/* Depoimentos */
+
+main{
+    background-color: #85a2b3;
+}
+
+.cards-formulario {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+h2{
+    color: #1F456E;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+ .cliente{
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente img{
+    width: 100%;
+}
+.container-clientes{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 70px;
+    margin: 30px;
+    width: 90%;
+}
+
+.cliente h5{
+    margin: 15px;
+    margin-top: 25px;
+    font-size: 15px;
+    text-size-adjust:inherit;
+    line-height: 25px;
+}
+
+.cliente p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.sua-mensagem{
+    border: 1px solid gray;
+    background-color: #C4C4C4;
+    color: black;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    display: grid;
+    padding: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sua-mensagem p{
+    font-size: 12px;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.sua-mensagem h5{
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    align-self: center;
+    justify-self: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Card opniões */
+    
+        .container-clientes {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .container-clientes img{
+            width: 80%;
+    
+        }
+    
+        .sua-mensagem {
+            width: 80%;
+            flex-direction: column;
+        }
+    
+        #redesocial-cliente {
+            margin-top: 5px;
+        }
+    
+        #produto-cliente {
+            margin-top: 5px;
+        }
+    
+        .cliente {
+            margin: 5%;
+        }
+    
+    }

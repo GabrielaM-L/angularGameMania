@@ -1,0 +1,46 @@
+main {
+    background-color: #85a2b3;
+    height: 500px;  
+}
+
+main h2 {
+    font-size: 25px;
+    color: #1F456E;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+
+.container-grid-parceiros img{
+    width: 300px;
+}
+
+.container-grid-parceiros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+/**** RESPONSIVIDADE ****/
+
+@media screen and (max-width: 768px) {
+
+
+/* Parceiros */
+
+    .container-grid-parceiros {
+        flex-direction: column;
+        height: 70%;
+    }
+
+    .container-grid-parceiros img {
+        width: 100px;
+    }
+
+    main h2 {
+        font-size: 15px;
+    }
+
+}

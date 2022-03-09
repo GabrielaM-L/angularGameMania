@@ -1,0 +1,17 @@
+ <main>
+    <form #loginForm ="ngForm" (ngSubmit)="onSubmit()">
+        <div class="campo-label">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="loginModel.email">
+        </div>
+        <div class="campo-label">
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite a sua senha" [(ngModel)]="loginModel.password">
+        </div>
+        <input id="botao-enviar" type="submit" value="Fazer Login">
+        <p>Não possui cadastro?<a href=""> Clique aqui </a></p>
+        <p id="mensagem" *ngIf="mensagem != '' "> {{mensagem}} </p>
+    </form>
+ </main>
+ 
+

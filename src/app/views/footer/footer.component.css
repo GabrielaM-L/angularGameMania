@@ -1,0 +1,84 @@
+/* Rodapé */
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1F456E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+footer h6 {
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+footer p {
+    font-size: 12px;
+}
+
+#copyright {
+    font-size: 8px;
+}
+.icone-img {
+    width: 40px;
+}
+.col-9 {
+    margin-top: 2%;
+}
+
+#botao-cadastrar {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    vertical-align: 2px;
+}
+
+.col-12 {
+    margin-top: 2%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones-fale-conosco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
